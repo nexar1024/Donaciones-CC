@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Página Principal Donaciones CC</title>
+    <link rel="shortcut icon" href="image/icono-donaciones.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li class="first-item">
+                <a href="inicionormal.html">
+                    <img src="image/home.jpg" alt="" class="imagen">
+                    <span class="text-item">Inicio</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="image/hands-donation-png.png" alt="" class="imagen">
+                    <span class="text-item">Donación</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#contacto">
+                    <img src="image/contacto.jpg" alt="" class="imagen">
+                    <span class="text-item">Contacto</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="image/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg" alt="" class="imagen">
+                    <span class="text-item">Salir</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+    <header>
+        
+        <section class="textos-dona">
+            <h1>Registro de Donación</h1>
+            <form name="registro" action="" method="">
+                <p>Donador: <input type="text" id="nombre" size="40" class="field" required></p>
+                <p>Beneficiario: <input type="text" id="beneficiario" size="40" class="field" required></p>
+                <p>Fecha de Donación: <input type="date" id="fecha" class="field" value="" required></p>
+                <p>Tipo de Donación:
+                  <select id="tipo_de_donacion">
+                      <option value="1">Insumo Médicos</option>
+                      <option value="2">Alimentos</option>
+                      <option value="3">Efectivo</option>
+                  </select>
+                </p>
+                <p>Detalle de la donación: <input type="text" id="detalle" class="field" required></p>
+                <p>Cantidad: <input type="number" id="cantidad" class="field" required></p>
+                <p class="btn-ens">
+                  <input onclick="validar()" type="button" class="btn-ets" value="Enviar">
+                  <input type="reset" class="btn-ets" value="Borrar">
+                </p>
+            </form>
+
+            <script src="js/regdonacion.js"></script>
+        </section>
+    </header>
+
+    <footer>
+        <div class="contenedor-footer">
+            <h2 id="contacto" class="contacto">Contáctenos</h2>
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>0982863889</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>centrodonacioncc2020@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Dirección</h4>
+                <p>Barrio Santa Martha Calle 6 Avenida 34</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

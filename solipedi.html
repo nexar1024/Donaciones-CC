@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Página Principal Donaciones CC</title>
+    <link rel="shortcut icon" href="image/icono-donaciones.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li class="first-item">
+                <a href="inicioadmin.html">
+                    <img src="image/home.jpg" alt="" class="imagen">
+                    <span class="text-item">Inicio</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="pagadmin.html">
+                    <img src="image/images.png" alt="" class="imagen">
+                    <span class="text-item">Control</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="solipedi.html">
+                    <img src="image/images.png" alt="" class="imagen">
+                    <span class="text-item">Pedido de Donación</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="image/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg" alt="" class="imagen">
+                    <span class="text-item">Salir</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <section>
+            <table class="table" border="1" style="margin: 0 auto;">
+                <tr> 
+                    <th>Nombre donador</th> 
+                    <th>Nombre beneficiario</th>
+                    <th>Fecha</th>
+                    <th>Tipo de Donacion</th>
+                    <th>Detalle</th>
+                    <th>Cantidad</th>
+                    <th></th>
+                </tr>
+                <tr id="ocultar">
+                    <td>Nexar Cedeño<img src="image/visto.png" id="mostrar1" width="15px" style="display: none;"></td>
+                    <td>Sin Fin</td>
+                    <td>10/12/2020</td>
+                    <td>Insumo Médicos</td>
+                    <td>Pastillas Paracetamol</td>
+                    <td>20</td>
+                    <td><button class="btn btn-default" href="#" onclick="cimg1();">Aprobar</button> <button class="btn btn-danger" href="#" onclick="cimg5();">Rechazar</button></td> 
+                </tr>
+                    <tr id="oculta">
+                        <td>Liceth Cañarte<img src="icon/check.svg" id="mostrar2" width="15px" style="display: none;" ></td>
+                        <td>Funteman</td>
+                        <td>06/01/2021</td>
+                        <td>Alimentos</td>
+                        <td>Alimentos de Primera Mano</td>
+                        <td>40</td>
+                        <td><button class="btn btn-default" href="#" onclick="cimg2();">Aprobar</button> <button class="btn btn-danger" href="#" onclick="cimg6();">Rechazar</button> </td>
+                  </tr>
+                </table>   
+                <script src="js/acepnega.js"></script>  
+        </section>
+    </header>
+</body>
+</html>

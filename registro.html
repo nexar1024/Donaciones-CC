@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Registro Usuario Donaciones</title>
+    <link rel="shortcut icon" href="image/icono-donaciones.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+     <form name="addForm" action='' method='POST' class="form-register">
+         <h3>Registro de Usuario</h3>
+         <input class="controls" type="text" id="nombre" placeholder="Ingrese su Nombre" required>
+         <input class="controls" type="text" id="usuario" placeholder="Ingrese su Usuario" required>
+         <input class="controls" type="email" id="correo" placeholder="Ingrese su Correo" required>
+         <input class="controls" type="password" id="password" placeholder="Ingrese su Contraseña" required>
+         <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+         <input class="botons" type="button" onclick="validar()" value="Registrar" />
+         <p>¿Ya tienes una Cuenta? <a href="login.html">Inicia Sesión</a></p>
+     </form>
+
+     <script src="js/registro.js"></script>
+</body>
+</html>

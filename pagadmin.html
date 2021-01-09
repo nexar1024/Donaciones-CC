@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Página Principal Donaciones CC</title>
+    <link rel="shortcut icon" href="image/icono-donaciones.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li class="first-item">
+                <a href="inicioadmin.html">
+                    <img src="image/home.jpg" alt="" class="imagen">
+                    <span class="text-item">Inicio</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="pagadmin.html">
+                    <img src="image/images.png" alt="" class="imagen">
+                    <span class="text-item">Control</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="solipedi.html">
+                    <img src="image/images.png" alt="" class="imagen">
+                    <span class="text-item">Pedido de Donación</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="image/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg" alt="" class="imagen">
+                    <span class="text-item">Salir</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <section>
+            <form action='' method="" class='btn-ens'>
+				Donador o Beneficiario: <input id="buscar" type="text" class="field" placeholder="Escriba algo para empezar a buscar" />
+                Desde: <input class="field" type="date" placeholder="Fecha desde..." value="" name="fechainicio"/>
+                Hasta: <input class="field" type="date" placeholder="Fecha hasta..." value="" name="fechafin"/>
+			</form>
+            <table id="tabla" class="table" border="1" style="margin: 0 auto;">
+                <tr> 
+                    <th>Nombre donador</th> 
+                    <th>Nombre beneficiario</th>
+                    <th>Fecha</th>
+                    <th>Tipo de Donacion</th>
+                    <th>Detalle</th>
+                    <th>Cantidad</th>
+                </tr>
+                <tbody>
+                    <tr> 
+                        <td>Nexar Cedeño</td> 
+                        <td>Hospital Central</td>
+                        <td>08/01/2021</td>
+                        <td>Insumos Médicos</td>
+                        <td>Mascarillas</td>
+                        <td>20</td>
+                   </tr>   
+
+                   <tr> 
+                       <td>Liceth Cañarte</td> 
+                       <td>Funtemas</td>
+                       <td>02/01/2021</td>
+                       <td>Efectivo</td>
+                       <td>Dinero</td>
+                       <td>50</td>
+                  </tr>
+                </tbody>
+                </table>  
+                <script src="js/consulta.js"></script>   
+        </section>
+    </header>
+</body>
+</html>
